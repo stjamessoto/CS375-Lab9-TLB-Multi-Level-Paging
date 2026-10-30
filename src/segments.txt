@@ -1,0 +1,12 @@
+# CS375 Lab 9 - Segment configuration file
+# Author: Santiago Soto
+# Contributions: Created this sample configuration for the simulator.
+#
+# Format: segID, base, limit, protection, page mappings...
+# Mappings: page:frame, page:frame:RO, or page:-:RO for a page not in memory.
+# Pages are numbered across directories; with 4 pages per table, page 5 is
+# directory 1, page 1. Pages left out start out of memory.
+
+0, 0, 16, RW, 0:0, 1:1, 2:-:RO, 5:2
+1, 20000, 8, RO, 0:3
+2, 40000, 16, RW

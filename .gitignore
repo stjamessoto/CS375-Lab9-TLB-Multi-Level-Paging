@@ -1,0 +1,17 @@
+# compiled programs
+bin/
+src/memory_simulator_advanced
+
+# simulator output
+batch_results.txt
+random_results.txt
+memory_log.txt
+
+# LaTeX build files (report.pdf is kept)
+report/*.aux
+report/*.log
+report/*.fls
+report/*.fdb_latexmk
+report/*.out
+report/*.toc
+report/*.synctex.gz
