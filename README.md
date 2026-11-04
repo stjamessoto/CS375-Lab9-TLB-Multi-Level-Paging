@@ -69,6 +69,26 @@ cd ~/CS375-Lab9-TLB-Multi-Level-Paging/submission && explorer.exe .
 
 `submission/` holds copies, so make any changes in `src/` or `report/`, then run `make submission`.
 
+### Submission checklist
+
+Every item in the handout's "Submission Requirements", and where it is met:
+
+| Requirement | Where |
+|-------------|-------|
+| `memory_simulator_advanced.cpp` and any additional files | `submission/`: the source, plus `segments.txt` and `addresses.txt`, which it reads |
+| A header in each file with your name and contributions | The top of all three source and input files; the report's title page |
+| Report (PDF/Word) | `submission/report.pdf` |
+| Screenshots: 5 manual translations, valid and invalid | Report §3.2, Figure 2 (7 translations) |
+| Screenshots: batch output (`batch_results.txt`) | Report §3.3, Figure 3 |
+| Screenshots: random address test (`random_results.txt`) | Report §3.4, Figure 4 |
+| Screenshots: memory map and stats after segment add/remove | Report §3.5, Figures 5-8 |
+| Answers to all 20 questions | Report §5 (questions 1-10) and §6 (questions 11-20, each 300-360 words) |
+| Discussion of challenges, enhancements and test results | Report §4 (LRU vs FIFO, TLB size, page size, valid ratio) and §7 |
+| External references cited | Report §8 |
+
+The generated files `batch_results.txt`, `random_results.txt` and `memory_log.txt` are not submitted. The
+handout asks for screenshots of them, which are in the report.
+
 ## 🔧 Setup (Ubuntu / WSL)
 
 ```bash
